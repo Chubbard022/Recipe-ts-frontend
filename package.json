@@ -5,9 +5,21 @@
   "repository": "https://github.com/Chubbard022/Recipe-ts-frontend.git",
   "author": "curtis <chubbard022@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.7",
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
     "next": "^11.0.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  }
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {}
 }
